@@ -27,24 +27,25 @@
 
     <main class="container-login">
         <header class="title-login">
-            <h1>Welcome to RestleGuess</h1>
+            <h1>Welcome to <br> RestleGuess</h1>
         </header>
 
         <form class="form-login" asp-action="Entrar" asp-controller="Login" method="post">
+            <section class="forms">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="email@email.com" required>
 
-            <label for="email">E-mail</label>
-            <input type="email" id="email" name="email" placeholder="email@email.com" required>
+                <label for="senha">Password</label>
+                <input type="password" id="senha" name="senha" placeholder="*********" required>
+            </section>
 
-            <label for="senha">Password</label>
-            <input type="password" id="senha" name="senha" placeholder="*********" required>
+            <a href="~/Redefinir/Index" class="link-forgot">Forgot your password?</a>
 
-            <a href="~/Redefinir/Index" class="link-esqueci">Forgot your password?</a>
+            <button type="submit" class="button-login">Login</button>
+            <a href="~/Cadastro/Index" class="link-register">Register</a>
 
-            <button type="submit" class="botao-login">Login</button>
-            <a href="~/Cadastro/Index">Register</a>
-
-            <p class="erro-login @(ViewBag.Erro != null ? "mostrar" : "")">
-                @ViewBag.Erro
+            <p class="error-login @(ViewBag.Error != null ? "mostrar" : "")">
+                @ViewBag.Error
             </p>
         </form>
     </main>
