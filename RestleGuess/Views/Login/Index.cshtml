@@ -39,10 +39,12 @@
                 <input type="password" id="senha" name="senha" placeholder="*********" required>
             </section>
 
-            <a href="~/Redefinir/Index" class="link-forgot">Forgot your password?</a>
+            <section class="links">
+                <a href="~/Redefinir/Index" class="link-forgot">Forgot your password?</a>
 
-            <button type="submit" class="button-login">Login</button>
-            <a href="~/Cadastro/Index" class="link-register">Register</a>
+                <button type="submit" class="button-login">Login</button>
+                <a href="~/Cadastro/Index" class="link-register">Register</a>
+            </section>
 
             <p class="error-login @(ViewBag.Error != null ? "mostrar" : "")">
                 @ViewBag.Error
