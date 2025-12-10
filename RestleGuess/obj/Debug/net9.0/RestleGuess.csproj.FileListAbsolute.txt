@@ -508,5 +508,5 @@ C:\Users\rafae\OneDrive\Área de Trabalho\RestleGuess\RestleGuess\obj\Debug\net9
 C:\Users\rafae\OneDrive\Área de Trabalho\RestleGuess\RestleGuess\obj\Debug\net9.0\RestleGuess.pdb
 C:\Users\rafae\OneDrive\Área de Trabalho\RestleGuess\RestleGuess\obj\Debug\net9.0\RestleGuess.genruntimeconfig.cache
 C:\Users\rafae\OneDrive\Área de Trabalho\RestleGuess\RestleGuess\obj\Debug\net9.0\ref\RestleGuess.dll
-C:\Users\rafae\OneDrive\Área de Trabalho\RestleGuess\RestleGuess\obj\Debug\net9.0\compressed\xjqmukwqoc-haatpvy6lv.gz
-C:\Users\rafae\OneDrive\Área de Trabalho\RestleGuess\RestleGuess\obj\Debug\net9.0\compressed\x11iy7fpge-5ipweew5fc.gz
+C:\Users\rafae\OneDrive\Área de Trabalho\RestleGuess\RestleGuess\obj\Debug\net9.0\compressed\xjqmukwqoc-6igjj6ktoq.gz
+C:\Users\rafae\OneDrive\Área de Trabalho\RestleGuess\RestleGuess\obj\Debug\net9.0\compressed\x11iy7fpge-odueu2bkwd.gz

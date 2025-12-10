@@ -26,30 +26,30 @@
 
 
     <main class="container-register">
-    <div class="box">
-        <form class="form-register" asp-action="Create" asp-controller="Register" method="post">
-            <section class="forms">
-                <label for="user">User</label>
-                <input type="text" id="user" name="user" placeholder="Username" required>
+        <div class="box">
+            <form class="form-register" asp-action="Create" asp-controller="Register" method="post">
+                <section class="forms">
+                    <label for="user">User</label>
+                    <input type="text" id="user" name="user" placeholder="Username" required>
 
-                <label for="email">E-mail</label>
-                <input type="email" id="email" name="email" placeholder="email@email.com" required>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="email@email.com" required>
 
-                <label for="senha">Password</label>
-                <input type="password" id="senha" name="senha" placeholder="*********" required>
+                    <label for="senha">Password</label>
+                    <input type="password" id="senha" name="senha" placeholder="*********" required>
 
-                <label for="cSenha">Confirm password</label>
-                <input type="password" id="cSenha" name="cSenha" placeholder="*********" required>
-            </section>
+                    <label for="cSenha">Confirm password</label>
+                    <input type="password" id="cSenha" name="cSenha" placeholder="*********" required>
+                </section>
 
-            <section class="button">
-                <button type="submit" class="button-register"></button>
-            </section>
+                <section class="button">
+                    <button type="submit" class="button-register"></button>
+                </section>
 
-            <p class="error-register @(ViewBag.Error != null ? "mostrar" : "")">
-                @ViewBag.Error
-            </p>
-        </form>
+                <p class="error-register @(ViewBag.Error != null ? "mostrar" : "")">
+                    @ViewBag.Error
+                </p>
+            </form>
         </div>
     </main>
 

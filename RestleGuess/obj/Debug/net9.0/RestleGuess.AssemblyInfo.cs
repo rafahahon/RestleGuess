@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RestleGuess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c25e9d64b106837d0dbd74e3e6424ac8314f5b91")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68f449a8f2a26cd8011d43632a6f61ab641f666b")]
 [assembly: System.Reflection.AssemblyProductAttribute("RestleGuess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RestleGuess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

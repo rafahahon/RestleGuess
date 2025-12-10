@@ -19,3 +19,52 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
+.container-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.box {
+    background-color: #65716219;
+    backdrop-filter: blur(10px);
+    padding: 200px;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.forms label {
+    color: #030707;
+    margin-top: 5%;
+    margin-right: 183%;
+    white-space: nowrap;
+}
+
+.forms input {
+    width: 270%;
+    height: 40px;
+    border: none;
+    background-color: #03070790;
+    padding: 5%;
+}
+
+.forms input::placeholder {
+    color: #FFFFFF;
+}
+
+.button-register {
+    border: none;
+    width: 100px;
+    height: 100px;
+    background-color: #C30000;
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
+    padding-bottom: 100px;
+}
